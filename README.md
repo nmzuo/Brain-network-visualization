@@ -8,6 +8,7 @@ The following main features
 3. Fast rendering since Python/Mayavi call OpenGL
 
 Surface format:
+```
 3									# node number
 -2.886495 24.886947 15.909558		# node coord
 -13.916695 -58.985245 19.655311
@@ -19,8 +20,10 @@ Surface format:
 1 3 5
 2 3 5
 3 4 5
+```
 
 Network format:
+```
 vertex  3							# node number
 -2.886495 24.886947 15.909558		# node coord
 -13.916695 -58.985245 19.655311
@@ -28,3 +31,5 @@ vertex  3							# node number
 edge 4								# conneciton number
 1 2 								# connection
 1 3 
+```
+
